@@ -24,7 +24,7 @@ export async function getNoteById(req, res) {
 export async function createNote(req, res) {
   try {
     const { title, content } = req.body;
-    const note = new Note({ title, content });
+    const note = new Note({ tite, content });
 
     const savedNote = await note.save();
     res.status(201).json(savedNote);

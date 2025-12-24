@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
 import Header from '../components/Header'
 import RateLimited from '../components/RateLimited';
-import axios from 'axios';
 import NoteCard from '../components/NoteCard';
 import api from '../components/lib/axios';
 import NotesNotFound from '../components/NotesNotFound';
